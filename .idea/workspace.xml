@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a60c0a4-b289-4a3a-bdc4-4dff36c76257" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/load_to_postgres.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/process_azure_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/upload_to_azure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,7 +270,7 @@
       <option name="presentableId" value="Default" />
       <updated>1788017913615</updated>
       <workItem from="1788017914627" duration="1727000" />
-      <workItem from="1788019658458" duration="11436000" />
+      <workItem from="1788019658458" duration="12064000" />
     </task>
     <servers />
   </component>

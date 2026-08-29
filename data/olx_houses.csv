@@ -1,2 +1,3 @@
-id,title,price
-1,Test House,100000
+id,title,price,city
+101,Apartment in the city center,85000,Kyiv
+102,House near the forest,120000,Lviv
