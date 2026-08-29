@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a60c0a4-b289-4a3a-bdc4-4dff36c76257" name="Changes" comment="" />
+    <list default="true" id="0a60c0a4-b289-4a3a-bdc4-4dff36c76257" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/load_to_postgres.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/process_azure_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/upload_to_azure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "vladsk2008fish-glitch"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/vladsk2008fish-glitch/olx-real-estate-analytics.git",
+    "accountId": "6e6f3546-b28a-48e2-83f9-713403715e80"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2,
   &quot;fromUser&quot;: false
@@ -46,6 +65,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ПК\PycharmProjects\Data Analytycs\src" />
       <recent name="C:\Users\ПК\PycharmProjects\Data Analytycs\src\utils" />
       <recent name="C:\Users\ПК\PycharmProjects\Data Analytycs\src\data" />
     </key>
@@ -254,11 +274,22 @@
       <option name="presentableId" value="Default" />
       <updated>1788017913615</updated>
       <workItem from="1788017914627" duration="1727000" />
-      <workItem from="1788019658458" duration="5099000" />
+      <workItem from="1788019658458" duration="11436000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

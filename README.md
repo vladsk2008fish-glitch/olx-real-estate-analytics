@@ -14,16 +14,11 @@ This project demonstrates an ETL (Extract, Transform, Load) workflow with cloud 
 ## Architecture & Data Flow
 
 ```text
-[ Web Scraper / Data Collector ] 
-               │
-               ▼
-   [ Azure Blob Storage ] (Raw Data Lake Layer)
-               │
-               ▼
-   [ Python Data Processing ] (Pandas / NumPy / Clean Architecture)
-               │
-               ▼
-   [ MySQL Database ] (Processed Relational Storage)
-               │
-               ▼ (Window Functions, Aggregations)
-[ EDA & Data Analytics ] (Seaborn / Plotly / SQL Queries)
+## 🏗 Data Pipeline Architecture
+
+```mermaid
+graph TD
+    A[OLX Web Scraper] -->|Raw CSV| B[Azure Blob Storage]
+    B -->|Ingestion & Cleaning| C[Python Processing / dbt]
+    C -->|Structured Data| D[PostgreSQL / Azure SQL]
+    D -->|Semantic Layer & Analytics| E[Lightdash]
