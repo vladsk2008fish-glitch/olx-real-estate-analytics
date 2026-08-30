@@ -1,0 +1,40 @@
+version: 2
+
+models:
+  - name: olx_houses
+    description: "OLX real estate data"
+    columns:
+      - name: id
+        description: "Offer ID"
+        meta:
+          dimension:
+            type: number
+
+      - name: title
+        description: "Listing title"
+        meta:
+          dimension:
+            type: string
+
+      - name: city
+        description: "City name"
+        meta:
+          dimension:
+            type: string
+          metrics:
+            total_listings:
+              type: count
+              label: "Total Listings"
+
+      - name: price
+        description: "Property price in USD"
+        meta:
+          dimension:
+            type: number
+          metrics:
+            avg_price:
+              type: average
+              label: "Average Price"
+            max_price:
+              type: max
+              label: "Max Price"
