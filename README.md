@@ -1,24 +1,22 @@
 # Łódź Real Estate Data & Analytics Pipeline
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-Blob%20Storage-0089D6?style=flat&logo=microsoftazure&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat&logo=mysql&logoColor=white)
-![Architecture](https://img.shields.io/badge/Clean%20Code-SOLID-brightgreen?style=flat)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Neon%20Cloud-4169E1?style=flat&logo=postgresql&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-Core-FF694B?style=flat&logo=dbt&logoColor=white)
+![Lightdash](https://img.shields.io/badge/Lightdash-BI-C8F7C5?style=flat)
+![Git](https://img.shields.io/badge/Git-GitHub-181717?style=flat&logo=github&logoColor=white)
 
-End-to-end data pipeline for collecting, storing, and analyzing real estate rental market data in Łódź, Poland. 
+End-to-end data pipeline for collecting, storing, transforming, and visualizing real estate rental market data in Łódź, Poland.
 
-This project demonstrates an ETL (Extract, Transform, Load) workflow with cloud integration (Azure Blob Storage), relational database querying using advanced SQL techniques (window functions), and visual exploratory data analysis (EDA).
+This project demonstrates an automated ETL (Extract, Transform, Load) workflow with cloud integration (Neon PostgreSQL Cloud), data modeling using **dbt Core**, and visual exploratory analytics via an interactive **Lightdash** BI dashboard.
 
 ---
 
-## Architecture & Data Flow
-
-```text
-## 🏗 Data Pipeline Architecture
+## 🏗 Architecture & Data Flow
 
 ```mermaid
 graph TD
-    A[OLX Web Scraper] -->|Raw CSV| B[Azure Blob Storage]
-    B -->|Ingestion & Cleaning| C[Python Processing / dbt]
-    C -->|Structured Data| D[PostgreSQL / Azure SQL]
-    D -->|Semantic Layer & Analytics| E[Lightdash]
+    A[OLX Web Scraper - Requests / BeautifulSoup] -->|Raw Payload| B[Neon Cloud PostgreSQL]
+    B -->|Transformation & Outlier Cleaning| C[dbt Core Models]
+    C -->|Semantic Layer & Metrics| D[Lightdash BI Engine]
+    D -->|Interactive Charts & KPIs| E[Rental Market Dashboard]
