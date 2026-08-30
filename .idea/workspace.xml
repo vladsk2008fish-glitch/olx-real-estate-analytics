@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a60c0a4-b289-4a3a-bdc4-4dff36c76257" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/dashboard.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fetch_olx_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/fetch_olx_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ПК/PycharmProjects/Data Analytycs",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "nodejs_package_manager_path": "npm",
@@ -61,6 +62,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ПК\PycharmProjects\Data Analytycs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ПК\PycharmProjects\Data Analytycs\src" />
       <recent name="C:\Users\ПК\PycharmProjects\Data Analytycs\src\utils" />
@@ -271,7 +275,7 @@
       <option name="presentableId" value="Default" />
       <updated>1788017913615</updated>
       <workItem from="1788017914627" duration="1727000" />
-      <workItem from="1788019658458" duration="20643000" />
+      <workItem from="1788019658458" duration="21957000" />
     </task>
     <servers />
   </component>
